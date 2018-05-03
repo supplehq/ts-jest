@@ -5,6 +5,7 @@ node_js:
   - "9"
   - "8"
   - "6"
+  - "10"
 before_install:
   - sudo sysctl fs.inotify.max_user_watches=524288
   - yarn global add greenkeeper-lockfile@1 rimraf
